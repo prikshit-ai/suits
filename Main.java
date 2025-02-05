@@ -5,6 +5,9 @@ public class Main {
         deck.createDeck();
         System.out.println("Displaying deck....");
         deck.displayDeck();
+        System.out.println("Shuffling deck....");
+        deck.shuffleDeck();
+        deck.displayDeck();
     }
 
 }
