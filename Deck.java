@@ -1,8 +1,4 @@
-
 import java.util.ArrayList;
-
-
-
 public class Deck {
     ArrayList<Card> deck;
     public Deck(){
@@ -18,5 +14,10 @@ public class Deck {
             }
         }
     }
+    public void displayDeck(){
+        for(Card card : deck){
+            System.out.println(card);
+        }
+    }   
     
 }
