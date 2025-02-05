@@ -8,6 +8,8 @@ public class Main {
         System.out.println("Shuffling deck....");
         deck.shuffleDeck();
         deck.displayDeck();
+        deck.randomCards();
+        deck.cardPlayers();
     }
 
 }

@@ -7,7 +7,7 @@ public class Card {
         this.suit = suit;
     }
     public String toString(){
-        return rank+" of" + suit;
+        return rank+" of " + suit;
     }
     
 }

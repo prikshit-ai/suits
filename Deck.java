@@ -22,6 +22,24 @@ public class Deck {
     }   
     public void shuffleDeck(){
         Collections.shuffle(deck);
+
+    }
+    public void randomCards(){
+        Collections.shuffle(deck);
+        for (int i = 0; i < 2; i++) {
+            System.out.println("random card :" +deck.get(i));
+        }
+    }
+    public void cardPlayers(){
+        for (int j = 0; j < 3; j++) {
+            
         
+        for (int i = 0; i < 5; i++) {
+            Collections.shuffle(deck);
+            System.out.println("Player "+(j+1)+ "gets card :" +deck.get(i));
+            
+        }
+        System.out.println();
+    }
     }
 }
